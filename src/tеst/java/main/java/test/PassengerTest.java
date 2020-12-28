@@ -1,19 +1,14 @@
-package main.java.test;
+package main.java.technology_lab2;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import main.java.technology_lab2.BodyType;
-import main.java.technology_lab2.Location;
-import main.java.technology_lab2.Passenger;
-
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
 public class PassengerTest {
     private Passenger passenger;
-
     @Mock
     private Location loc;
 

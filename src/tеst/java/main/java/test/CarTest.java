@@ -1,16 +1,11 @@
-package main.java.test;
+package main.java.technology_lab2;;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import main.java.technology_lab2.Boody;
-import main.java.technology_lab2.Car;
-
-import java.util.ArrayList;
 
 import static org.junit.Assert.*;
-import static org.mockito.Mockito.when;
 
 public class CarTest {
     private Car car;
@@ -22,7 +17,6 @@ public class CarTest {
 
     public void setUp() {
         MockitoAnnotations.initMocks(this);
-        System.out.println("sdpflsdcpsdl");
         car = new Car("Mers");
         for (int i=0; i < 5; i++) {
             car.addBody(boody);

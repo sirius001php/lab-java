@@ -1,8 +1,8 @@
-package main.java.test;
+package main.java.technology_lab2;;
 
 import org.junit.Before;
 import org.junit.Test;
-import main.java.technology_lab2.Location;
+
 
 import static org.junit.Assert.*;
 
